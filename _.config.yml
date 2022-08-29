@@ -9,4 +9,5 @@ include:
   - CONTRIBUTING.md
   - README.md
   - LICENSE.md
+  - INDEX.md
   - useStateLazyInitialization.md
