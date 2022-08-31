@@ -15,7 +15,8 @@ function  useState<T>(initialState: T | (() =>  T)): [T, Dispatch<SetStateAction
 \
 &nbsp;
 
- ## Lazy Initialization of state:
+
+## Lazy Initialization of state
 React useState hook can take a callback function as an initial value, this is called as lazy initialization of state. 
 
 Which means the return value of callback function going to set the state only once throughout the lifecycle of that component when the component mounts and rendered initially.
@@ -122,7 +123,7 @@ Here is a [ codesandbox](https://codesandbox.io/s/busy-kapitsa-c7pkfm?file=/src/
 \
 &nbsp;
 
-## TL;DR :  
+## TL;DR  
 There is a subtle difference how you store a state value and how you store a function with react useState hook. If you pass a callback function returning a value to the useState hook, state will be initialized for only for once with the value you are returning when the component mounts and rendered for the first time. It is called Lazy Initialization of state.
 
 ```jsx
