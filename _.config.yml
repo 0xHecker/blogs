@@ -10,4 +10,5 @@ include:
   - README.md
   - LICENSE.md
   - INDEX.md
-  - useStateLazyInitialization.md
+  - use-state-lazy-initialization.md
+  - react-use-reducer-hook-simplified.md
